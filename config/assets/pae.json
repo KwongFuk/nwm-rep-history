@@ -1,0 +1,53 @@
+{
+  "checkpoint": {
+    "bytes": 2904456562,
+    "path": "${NWM_MODEL_ROOT}/pae-official/AE-models/dinov2-large.pt",
+    "repo_id": "yuezhengrong/PAE-collections",
+    "repo_path": "AE-models/dinov2-large.pt",
+    "sha256": "cfe9ca326954b7c65735ae4a94d548023db609b990dd7c1784f48c8f1d483738"
+  },
+  "dino": {
+    "config_sha256": "03eee42f646659a9480f8911a81fdd81efeedd7ff39083c8e36398068daf72f5",
+    "model_path": "${NWM_MODEL_ROOT}/dinov2-with-registers-large",
+    "model_sha256": "edccedab2c4e164e80833096de89a32a6e8d7365870499a066a61dbc8894b42b",
+    "preprocessor_sha256": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828",
+    "repo_id": "facebook/dinov2-with-registers-large",
+    "revision": "e4c89a4e05589de9b3e188688a303d0f3c04d0f3"
+  },
+  "latent_stats": {
+    "bytes": 1660,
+    "path": "${NWM_MODEL_ROOT}/pae-official/Latent-stats/PAE_DINOv2L.pt",
+    "repo_id": "yuezhengrong/PAE-collections",
+    "repo_path": "Latent-stats/PAE_DINOv2L.pt",
+    "sha256": "77fcb894f0e0e2d40353e6677c853f2008fa8b0bffcbd3d14b9479838140d697"
+  },
+  "pae_source": {
+    "commit": "c054d543a368559763f84c82fef813c55d311b82",
+    "config_sha256": "cd22252fe62754e746e58583d6ed39b88b5889054e77fd28420b5981de5b0ded",
+    "decoder_config_sha256": "49bb5bf176edcd75169711eea7ceb9111fb8225a9c228cff23605b97ccf5b055",
+    "patched_file_sha256": {
+      "tokenizer/decoders/decoder.py": "e6cabf3dd9ccc46811954d66489cb79d014bd4fc18618810171976c263557601",
+      "tokenizer/decoders/utils.py": "c0c88c0d536600662b6f888b8966a14955d2139009d0e2aadfd22e4e10753985",
+      "tokenizer/encoders/__init__.py": "58e82201cf2a69b312c6fc33d0e335636cec36dbb0ec51eb2c3177d7b43eccee",
+      "tokenizer/encoders/delta.py": "bd4957da81e0c0d6c2dfc2eda793b29a132e605fa4b8b2ce9200ee3156447e6f",
+      "tokenizer/encoders/dinov2.py": "d0747dcf7d5d9b459352cad7a3443e4db594aff22452f079611b49e046d3eea2",
+      "tokenizer/pae.py": "cbd6a71185c1fe8140eb920d8a82a02bdb6355d152aba6a62b8f87bad3344bb0"
+    },
+    "repo_url": "https://github.com/ZhengrongYue/PAE.git"
+  },
+  "protocol": {
+    "allowed_unexpected_checkpoint_keys": [
+      "teacher_latent_compressor.0.proj.bias",
+      "teacher_latent_compressor.0.proj.weight",
+      "teacher_latent_compressor.0.qkv.weight",
+      "teacher_latent_compressor.1.bias",
+      "teacher_latent_compressor.1.weight"
+    ],
+    "encoder_frozen": true,
+    "latent_channels": 32,
+    "latent_grid": [
+      16,
+      16
+    ]
+  }
+}

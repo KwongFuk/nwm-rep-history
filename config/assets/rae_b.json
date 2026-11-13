@@ -1,0 +1,26 @@
+{
+  "decoder": {
+    "path": "${NWM_MODEL_ROOT}/rae/dinov2-b/decoder.pt",
+    "repo_id": "nyu-visionx/RAE-collections",
+    "repo_path": "decoders/dinov2/wReg_base/ViTXL_n08/model.pt",
+    "revision": "1be4f03273523431f099a934da4cf1940dc6039f",
+    "sha256": "5fedf7c9660476a709e122cef18385c917532914a23f034388e1c1a52bde2be6"
+  },
+  "encoder": {
+    "repo_id": "facebook/dinov2-with-registers-base",
+    "revision": "a1d738ccfa7ae170945f210395d99dde8adb1805"
+  },
+  "protocol": {
+    "encoder_frozen": true,
+    "latent_channels": 768,
+    "latent_grid": [16, 16],
+    "variant": "official_rae_dinov2_wreg_b_k1"
+  },
+  "stats": {
+    "path": "${NWM_MODEL_ROOT}/rae/dinov2-b/stats.pt",
+    "repo_id": "nyu-visionx/RAE-collections",
+    "repo_path": "stats/dinov2/wReg_base/imagenet1k/stat.pt",
+    "revision": "1be4f03273523431f099a934da4cf1940dc6039f",
+    "sha256": "84ede66def5e6e3f25679334dc89cf63b12aacb99cbf0f5ae7ed4ad3187f7e59"
+  }
+}

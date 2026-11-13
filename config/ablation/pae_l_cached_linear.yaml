@@ -1,0 +1,169 @@
+# Ablation I - component matrix cell (10 epochs; LR horizon of the 50-epoch schedule)
+# pae_l_cached_linear
+
+# --- Output ---
+results_dir: ${NWM_RUN_ROOT}/ablation
+run_name: pae_l_cached_linear
+wandb:
+  enabled: false
+  project: nwm-rep-history
+  entity: null
+
+# --- Data ---
+datasets:
+  recon:
+    data_folder: ${NWM_DATA_ROOT}/processed/recon
+    train: data_splits/recon/train
+    test: data_splits/recon/test
+    goals_per_obs: 4
+  sacson:
+    data_folder: ${NWM_DATA_ROOT}/processed/sacson
+    train: data_splits/sacson/train
+    test: data_splits/sacson/test
+    goals_per_obs: 4
+  scand:
+    data_folder: ${NWM_DATA_ROOT}/processed/scand
+    train: data_splits/scand/train
+    test: data_splits/scand/test
+    goals_per_obs: 4
+eval_datasets:
+  recon:
+    data_folder: ${NWM_DATA_ROOT}/processed/recon
+    test: data_splits/recon/test
+    goals_per_obs: 4
+  sacson:
+    data_folder: ${NWM_DATA_ROOT}/processed/sacson
+    test: data_splits/sacson/test
+    goals_per_obs: 4
+  scand:
+    data_folder: ${NWM_DATA_ROOT}/processed/scand
+    test: data_splits/scand/test
+    goals_per_obs: 4
+dataset_index_root: ${NWM_DATA_ROOT}/index-cache
+image_size: 224
+latent_size: 16
+context_size: 8
+len_traj_pred: 64
+distance:
+  min_dist_cat: -64
+  max_dist_cat: 64
+normalize: true
+action_normalization: training_global_minmax
+balanced_sampling: true
+balanced_sampling_mode: downsample_only
+balanced_samples_per_epoch: min
+deterministic_data_sampling: true
+num_workers: 6
+
+# --- Frozen visual interface ---
+tokenizer:
+  type: pae
+  source_root: ${PAE_SOURCE_ROOT}
+  config_path: ${PAE_SOURCE_ROOT}/configs/pae/PAE_DINOv2L_d32.yaml
+  checkpoint_path: ${NWM_MODEL_ROOT}/pae-official/AE-models/dinov2-large.pt
+  dino_model_path: ${NWM_MODEL_ROOT}/dinov2-with-registers-large
+  asset_manifest_path: config/assets/pae.json
+  latent_channels: 32
+  dtype: bf16
+model_in_channels: 32
+
+# --- Dynamics model (CDiT-B/2 + DDT head) ---
+model: CDiT-B/2
+model_init_seed: 424242
+paired_reference_in_channels: 768
+learn_sigma: false
+mlp_ratio: 4.0
+head_width: 2048
+head_depth: 2
+head_num_heads: 16
+head_mlp_ratio: 4.0
+use_low_rank_adaln_head: false
+head_attention_layout:
+- window
+- shifted_window
+
+# --- History mixer ---
+attention_mode: cached_linear
+backbone_mode: dit
+self_attention_layout:
+- window
+- shifted_window
+- window
+- shifted_window
+- window
+- shifted_window
+- window
+- shifted_window
+- window
+- shifted_window
+- window
+- shifted_window
+self_mixer_layout: null
+gdn_softmax_every: 4
+gdn_conv_kernel_size: 0
+gdn_backend: triton_fused
+linear_feature_scaling: true
+
+# --- iREPA alignment (training only) ---
+repa_mode: none
+repa_coeff: 0.0
+repa_target: state
+repa_objective: alignment
+repa_layer_depth: 8
+repa_kernel_size: 3
+repa_target_dim: 32
+weak_x_coeff: 0.0
+spatial_relation_coeff: 0.0
+repa_spatial_alpha: 0.6
+spatial_relation_radius: 2
+repa_eps: 1.0e-06
+
+# --- Flow matching ---
+transport:
+  model_type: velocity
+  path_type: linear
+  loss_type: velocity
+  time_dist_type: uniform
+  time_dist_shift_disable: false
+  time_dist_shift_base: 4096
+  num_steps: 50
+  sampling_method: euler
+
+# --- Optimization ---
+epochs: 10
+batch_size: 48
+train_microbatch_size: 48
+lr: 0.0002
+final_lr: 2.0e-06
+lr_schedule: linear
+lr_schedule_total_steps: 98100
+betas:
+- 0.9
+- 0.999
+weight_decay: 0.0
+adam_eps: 1.0e-08
+grad_clip_val: 1.0
+ema_decay: 0.9999
+exact_resume: true
+override_lr_on_resume: false
+
+# --- Evaluation ---
+eval_batch_size: 1
+eval_num_batches: 8
+eval_seed: 420042
+planning_score_type: dino
+planning_traj_sampler: curve
+dreamsim_cache_dir: ${NWM_MODEL_ROOT}/dreamsim
+
+# --- Reproducibility checks ---
+expected_world_size: 2
+expected_global_observation_batch: 96
+effective_transition_batch: 384
+expected_train_dataset_sizes:
+  recon: 122818
+  sacson: 110125
+  scand: 62813
+expected_steps_per_epoch: 1962
+expected_total_optimizer_steps: 19620
+parameter_budget_trainable: 360655732
+parameter_tolerance: 0.0001

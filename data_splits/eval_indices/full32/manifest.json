@@ -1,0 +1,1242 @@
+{
+  "datasets": {
+    "recon": {
+      "eligible_trajectories": 150,
+      "openloop_file": "recon_openloop.pkl",
+      "openloop_sha256": "491f5c2e169246a32f050a81001ddfc8551203f457b673471294e9bafaf1e539",
+      "planning_file": "recon_planning.pkl",
+      "planning_sha256": "0cb196574aa266e42ea157a6205444288ee0722a2beaff3568a1fe45e7234c29",
+      "samples": [
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-08-16-28-42_0_r02"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-08-27-15-44-54_5_r02"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "jackal_2020-01-03-14-15-30_3_r02"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-09-17-17-39-40_11_r02"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "jackal_2019-08-15-15-27-48_5_r01"
+        },
+        {
+          "current_time": 47,
+          "trajectory": "jackal_2019-12-19-12-54-05_8_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-09-09-18-10-05_0_r02"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "jackal_2019-08-18-15-53-02_54_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-13-14-02-30_0_r00"
+        },
+        {
+          "current_time": 127,
+          "trajectory": "jackal_2019-08-20-14-50-11_4_r03"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-12-21-14-17-04_8_r03"
+        },
+        {
+          "current_time": 47,
+          "trajectory": "jackal_2019-08-18-15-07-02_8_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-20-15-26-11_40_r00"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-10-31-16-41-10_20_r04"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2020-01-05-12-28-42_5_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-13-15-14-29_6_r02"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "jackal_2019-09-19-12-01-08_2_r02"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "jackal_2020-01-05-15-15-34_1_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2020-01-05-14-18-28_0_r00"
+        },
+        {
+          "current_time": 119,
+          "trajectory": "jackal_2020-01-04-14-10-45_1_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-13-13-36-18_0_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-13-15-20-29_12_r04"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "jackal_2019-09-12-17-52-05_0_r00"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "jackal_2019-08-08-16-33-42_5_r00"
+        },
+        {
+          "current_time": 63,
+          "trajectory": "jackal_2020-01-05-13-55-37_3_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-09-17-18-05-15_2_r01"
+        },
+        {
+          "current_time": 87,
+          "trajectory": "jackal_2019-08-02-17-09-37_33_r03"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2020-01-03-15-07-53_22_r02"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "jackal_2019-08-15-18-22-03_1_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-18-18-32-27_0_r00"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "jackal_2019-08-13-15-37-03_2_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-09-12-15-41-34_48_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-13-13-24-00_2_r02"
+        },
+        {
+          "current_time": 55,
+          "trajectory": "jackal_2019-08-08-14-04-45_23_r01"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "jackal_2019-09-09-17-46-58_10_r00"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "jackal_2020-01-05-14-36-38_1_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-13-14-30-24_7_r00"
+        },
+        {
+          "current_time": 47,
+          "trajectory": "jackal_2019-12-23-14-13-11_4_r01"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "jackal_2019-10-31-10-31-38_1_r00"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-08-08-13-45-45_4_r01"
+        },
+        {
+          "current_time": 175,
+          "trajectory": "jackal_2019-09-12-15-11-34_18_r03"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-10-20-15-31-03_2_r00"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "jackal_2020-01-03-13-14-51_1_r01"
+        },
+        {
+          "current_time": 79,
+          "trajectory": "jackal_2019-09-19-13-08-19_0_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-18-15-18-02_19_r02"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-02-17-47-37_71_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-13-14-41-24_7_r01"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "jackal_2019-08-08-15-20-05_2_r01"
+        },
+        {
+          "current_time": 87,
+          "trajectory": "jackal_2019-08-15-16-34-53_11_r00"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "jackal_2019-09-17-17-18-10_13_r02"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-09-17-16-07-02_1_r00"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "jackal_2019-08-08-14-25-24_11_r00"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "jackal_2019-12-21-12-48-38_5_r01"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "jackal_2019-12-23-14-40-10_7_r00"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2020-01-05-13-58-37_6_r00"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-09-12-18-17-38_8_r01"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "jackal_2019-10-31-16-44-10_23_r04"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "jackal_2019-08-18-17-14-29_2_r01"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "jackal_2019-12-23-14-00-04_1_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-15-16-12-21_29_r00"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "jackal_2019-08-20-15-48-44_16_r00"
+        },
+        {
+          "current_time": 47,
+          "trajectory": "jackal_2020-01-04-12-54-44_0_r02"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "jackal_2019-12-19-12-26-57_2_r02"
+        },
+        {
+          "current_time": 87,
+          "trajectory": "jackal_2019-12-21-14-14-04_5_r01"
+        },
+        {
+          "current_time": 63,
+          "trajectory": "jackal_2019-12-21-13-22-20_2_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-29-16-25-35_11_r01"
+        },
+        {
+          "current_time": 55,
+          "trajectory": "jackal_2019-12-21-13-38-15_5_r01"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-12-23-14-45-10_12_r01"
+        },
+        {
+          "current_time": 55,
+          "trajectory": "jackal_2019-08-02-17-18-37_42_r00"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-09-09-14-28-00_2_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-18-15-03-02_4_r00"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "jackal_2019-09-19-16-23-43_14_r00"
+        },
+        {
+          "current_time": 95,
+          "trajectory": "jackal_2019-08-13-14-40-24_6_r02"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-18-15-25-02_26_r03"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "jackal_2019-08-20-15-30-11_44_r02"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-09-12-15-31-34_38_r01"
+        },
+        {
+          "current_time": 71,
+          "trajectory": "jackal_2020-01-04-14-01-57_0_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-09-09-14-49-00_23_r03"
+        },
+        {
+          "current_time": 71,
+          "trajectory": "jackal_2019-08-18-18-37-11_1_r01"
+        },
+        {
+          "current_time": 71,
+          "trajectory": "jackal_2019-09-12-13-49-34_3_r00"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-12-21-13-39-15_6_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-12-21-15-20-38_10_r00"
+        },
+        {
+          "current_time": 63,
+          "trajectory": "jackal_2019-08-18-15-20-02_21_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-09-19-12-13-08_14_r02"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-29-13-25-39_1_r01"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "jackal_2019-09-09-16-10-52_16_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-18-16-37-56_28_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2020-01-04-14-41-13_6_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2020-01-05-15-03-16_0_r01"
+        },
+        {
+          "current_time": 183,
+          "trajectory": "jackal_2019-09-12-15-07-34_14_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2020-01-05-12-58-30_4_r00"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "jackal_2019-09-12-17-36-08_8_r01"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-08-08-13-54-45_13_r00"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-12-21-15-24-38_14_r00"
+        },
+        {
+          "current_time": 63,
+          "trajectory": "jackal_2019-08-20-13-47-33_3_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-13-14-58-15_7_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-08-18-02-29_1_r01"
+        },
+        {
+          "current_time": 119,
+          "trajectory": "jackal_2019-12-21-12-16-24_9_r01"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "jackal_2019-12-19-15-24-51_5_r00"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-08-08-13-58-44_17_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-08-14-31-24_17_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2020-01-05-12-25-42_2_r00"
+        },
+        {
+          "current_time": 111,
+          "trajectory": "jackal_2019-09-09-18-05-58_29_r00"
+        },
+        {
+          "current_time": 55,
+          "trajectory": "jackal_2019-08-06-14-09-43_16_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-09-12-14-55-34_2_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-20-17-38-16_1_r01"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-08-13-16-36-26_24_r01"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "jackal_2019-10-20-15-52-17_0_r01"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-08-20-13-45-33_1_r00"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "jackal_2020-01-04-12-41-56_2_r02"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "jackal_2019-10-24-17-26-09_15_r04"
+        },
+        {
+          "current_time": 47,
+          "trajectory": "jackal_2019-08-20-15-26-11_40_r01"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "jackal_2019-08-13-14-05-30_3_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-09-19-14-39-19_17_r01"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "jackal_2019-08-20-18-31-19_48_r01"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-08-08-15-22-05_4_r01"
+        },
+        {
+          "current_time": 55,
+          "trajectory": "jackal_2019-10-20-15-57-42_1_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-18-15-03-02_4_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2020-01-04-13-51-57_5_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-29-12-51-51_12_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-09-19-15-26-49_2_r02"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-08-27-17-55-11_19_r04"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-02-16-37-37_1_r01"
+        },
+        {
+          "current_time": 87,
+          "trajectory": "jackal_2019-12-21-13-21-20_1_r00"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "jackal_2019-08-15-17-02-53_39_r00"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-08-27-15-24-10_0_r04"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-10-24-13-35-07_2_r02"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "jackal_2019-08-20-15-36-44_4_r01"
+        },
+        {
+          "current_time": 175,
+          "trajectory": "jackal_2019-12-19-12-48-05_2_r03"
+        },
+        {
+          "current_time": 87,
+          "trajectory": "jackal_2019-09-19-15-32-48_8_r00"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-08-15-16-48-53_25_r01"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "jackal_2019-08-29-14-35-17_0_r01"
+        },
+        {
+          "current_time": 47,
+          "trajectory": "jackal_2019-12-19-13-43-29_5_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-09-12-15-49-34_56_r01"
+        },
+        {
+          "current_time": 111,
+          "trajectory": "jackal_2019-08-27-14-56-25_5_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-10-31-11-13-02_3_r04"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "jackal_2019-08-08-17-56-19_1_r00"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "jackal_2019-08-18-16-19-56_10_r00"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-12-19-12-52-05_6_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-08-16-51-33_9_r04"
+        },
+        {
+          "current_time": 119,
+          "trajectory": "jackal_2019-12-19-15-29-51_10_r01"
+        },
+        {
+          "current_time": 47,
+          "trajectory": "jackal_2019-09-09-15-06-00_40_r04"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "jackal_2019-10-31-16-09-57_8_r02"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2020-01-03-13-00-46_1_r02"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-09-09-14-16-57_16_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-13-16-21-26_9_r01"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-08-18-17-49-03_0_r01"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "jackal_2019-09-19-16-18-43_9_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-09-17-18-14-15_11_r00"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "jackal_2019-09-19-12-43-32_0_r00"
+        }
+      ],
+      "selected_samples": 150,
+      "trajectory_names_sha256": "526153b09f5c99abb007408b605417c0c06099155577a77da56691d116bcca09"
+    },
+    "sacson": {
+      "eligible_trajectories": 112,
+      "openloop_file": "sacson_openloop.pkl",
+      "openloop_sha256": "f9e6e424525372d5a53899b3e5ad78a6daea5e85db72851f18d752f93f4df18f",
+      "planning_file": "sacson_planning.pkl",
+      "planning_sha256": "9bfbf8de0bfdb4bd6cf61d1641b253cf8e39b2de8b22397292ecd2c39c902700",
+      "samples": [
+        {
+          "current_time": 87,
+          "trajectory": "Feb-16-2023-bww1-intloss_00000035_1"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "Feb-16-2023-bww1-intloss_00000007_13"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Dec-15-2022-bww8_00000014_2"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Feb-16-2023-bww1-intloss_00000017_0"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Feb-20-2023-bww2-intloss_00000024_10"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "Feb-27-2023-soda3-intloss_00000000_0"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "Feb-17-2023-soda3_00000003_0"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "Feb-09-2023-bww8-intloss_00000042_17"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "Feb-09-2023-bww8-intloss_00000014_0"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "Feb-23-2023-soda3-intloss_00000001_5"
+        },
+        {
+          "current_time": 327,
+          "trajectory": "Feb-15-2023-bww1_00000001_0"
+        },
+        {
+          "current_time": 143,
+          "trajectory": "Dec-06-2022-bww8_00000038_8"
+        },
+        {
+          "current_time": 311,
+          "trajectory": "Dec-09-2022-bww8_00000005_0"
+        },
+        {
+          "current_time": 135,
+          "trajectory": "Feb-27-2023-soda3-intloss_00000017_2"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "Feb-15-2023-bww1_00000000_0"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "Dec-09-2022-bww8_00000013_0"
+        },
+        {
+          "current_time": 279,
+          "trajectory": "Dec-09-2022-bww8_00000027_0"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "Jan-12-2023-bww8_00000006_28"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Feb-20-2023-bww2-intloss_00000041_3"
+        },
+        {
+          "current_time": 95,
+          "trajectory": "Feb-17-2023-soda3_00000008_0"
+        },
+        {
+          "current_time": 55,
+          "trajectory": "Dec-06-2022-bww8_00000041_2"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Dec-06-2022-bww8_00000015_4"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Feb-03-2023-bww8-intloss_00000013_0"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Feb-09-2023-bww8-intloss_00000012_9"
+        },
+        {
+          "current_time": 135,
+          "trajectory": "Feb-17-2023-bww2_00000014_0"
+        },
+        {
+          "current_time": 103,
+          "trajectory": "Jan-12-2023-bww8_00000012_0"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Jan-12-2023-bww8_00000008_10"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Feb-16-2023-bww1-intloss_00000007_3"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "Nov-17-2022-bww8_00000014_1"
+        },
+        {
+          "current_time": 71,
+          "trajectory": "Feb-09-2023-bww8-intloss_00000038_1"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "Feb-20-2023-bww2-intloss_00000020_6"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "Feb-20-2023-bww2-intloss_00000020_8"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "Feb-06-2023-bww8-intloss_00000003_13"
+        },
+        {
+          "current_time": 231,
+          "trajectory": "Dec-09-2022-bww8_00000022_1"
+        },
+        {
+          "current_time": 103,
+          "trajectory": "Nov-17-2022-bww8_00000005_4"
+        },
+        {
+          "current_time": 207,
+          "trajectory": "Dec-12-2022-bww8_00000023_0"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Jan-12-2023-bww8_00000004_2"
+        },
+        {
+          "current_time": 55,
+          "trajectory": "Feb-27-2023-soda3-intloss_00000008_1"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Feb-09-2023-bww8-intloss_00000010_3"
+        },
+        {
+          "current_time": 183,
+          "trajectory": "Feb-17-2023-bww2_00000011_0"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "Nov-17-2022-bww8_00000007_0"
+        },
+        {
+          "current_time": 55,
+          "trajectory": "Dec-09-2022-bww8_00000021_2"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Feb-17-2023-bww2_00000012_2"
+        },
+        {
+          "current_time": 175,
+          "trajectory": "Nov-17-2022-bww8_00000019_0"
+        },
+        {
+          "current_time": 199,
+          "trajectory": "Feb-16-2023-bww1-intloss_00000023_3"
+        },
+        {
+          "current_time": 47,
+          "trajectory": "Feb-23-2023-soda3-intloss_00000016_1"
+        },
+        {
+          "current_time": 319,
+          "trajectory": "Feb-17-2023-soda3_00000004_0"
+        },
+        {
+          "current_time": 87,
+          "trajectory": "Feb-17-2023-bww2_00000002_1"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "Feb-21-2023-soda3-intloss_00000016_0"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "Feb-23-2023-soda3-intloss_00000008_0"
+        },
+        {
+          "current_time": 159,
+          "trajectory": "Dec-09-2022-bww8_00000008_1"
+        },
+        {
+          "current_time": 127,
+          "trajectory": "Feb-23-2023-soda3-intloss_00000004_4"
+        },
+        {
+          "current_time": 295,
+          "trajectory": "Dec-06-2022-bww8_00000040_3"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "Nov-17-2022-bww8_00000002_0"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "Dec-09-2022-bww8_00000004_2"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "Feb-03-2023-bww8-intloss_00000009_0"
+        },
+        {
+          "current_time": 167,
+          "trajectory": "Nov-17-2022-bww8_00000017_0"
+        },
+        {
+          "current_time": 223,
+          "trajectory": "Dec-09-2022-bww8_00000033_0"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Dec-09-2022-bww8_00000018_0"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Dec-07-2022-bww8_00000001_3"
+        },
+        {
+          "current_time": 183,
+          "trajectory": "Dec-12-2022-bww8_00000036_0"
+        },
+        {
+          "current_time": 207,
+          "trajectory": "Jan-20-2023-bww8_00000008_0"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Dec-07-2022-bww8_00000000_12"
+        },
+        {
+          "current_time": 55,
+          "trajectory": "Dec-15-2022-bww8_00000017_0"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "Feb-17-2023-bww2_00000007_3"
+        },
+        {
+          "current_time": 63,
+          "trajectory": "Nov-17-2022-bww8_00000006_3"
+        },
+        {
+          "current_time": 183,
+          "trajectory": "Dec-15-2022-bww8_00000024_0"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "Feb-20-2023-bww2-intloss_00000009_2"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Feb-20-2023-bww2-intloss_00000008_4"
+        },
+        {
+          "current_time": 103,
+          "trajectory": "Feb-17-2023-bww2_00000001_0"
+        },
+        {
+          "current_time": 247,
+          "trajectory": "Dec-12-2022-bww8_00000027_0"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "Feb-06-2023-bww8-intloss_00000004_2"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Feb-20-2023-bww2-intloss_00000027_4"
+        },
+        {
+          "current_time": 335,
+          "trajectory": "Dec-12-2022-bww8_00000018_3"
+        },
+        {
+          "current_time": 167,
+          "trajectory": "Feb-15-2023-cory1_00000005_0"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Feb-09-2023-bww8-intloss_00000004_2"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "Dec-06-2022-bww8_00000017_0"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Jan-20-2023-bww8_00000005_3"
+        },
+        {
+          "current_time": 143,
+          "trajectory": "Feb-16-2023-bww1-intloss_00000025_4"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "Feb-14-2023-bww8-intloss_00000004_2"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "Feb-21-2023-soda3-intloss_00000005_1"
+        },
+        {
+          "current_time": 167,
+          "trajectory": "Dec-12-2022-bww8_00000029_0"
+        },
+        {
+          "current_time": 207,
+          "trajectory": "Dec-12-2022-bww8_00000004_0"
+        },
+        {
+          "current_time": 119,
+          "trajectory": "Jan-16-2023-bww8_00000000_5"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "Dec-15-2022-bww8_00000005_1"
+        },
+        {
+          "current_time": 111,
+          "trajectory": "Dec-12-2022-bww8_00000015_0"
+        },
+        {
+          "current_time": 47,
+          "trajectory": "Dec-15-2022-bww8_00000004_0"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "Feb-20-2023-bww2-intloss_00000039_0"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "Feb-09-2023-bww8-intloss_00000046_1"
+        },
+        {
+          "current_time": 47,
+          "trajectory": "Nov-17-2022-bww8_00000016_2"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "Feb-06-2023-bww8-intloss_00000011_0"
+        },
+        {
+          "current_time": 111,
+          "trajectory": "Dec-12-2022-bww8_00000038_1"
+        },
+        {
+          "current_time": 103,
+          "trajectory": "Dec-09-2022-bww8_00000009_0"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Feb-21-2023-soda3-intloss_00000014_7"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Feb-17-2023-bww2_00000015_2"
+        },
+        {
+          "current_time": 167,
+          "trajectory": "Feb-16-2023-bww1-intloss_00000028_2"
+        },
+        {
+          "current_time": 87,
+          "trajectory": "Feb-09-2023-bww8-intloss_00000044_1"
+        },
+        {
+          "current_time": 215,
+          "trajectory": "Feb-23-2023-soda3-intloss_00000005_0"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "Feb-13-2023-bww8-intloss_00000010_10"
+        },
+        {
+          "current_time": 175,
+          "trajectory": "Dec-09-2022-bww8_00000007_0"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "Feb-15-2023-cory1_00000007_2"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "Feb-14-2023-bww8-intloss_00000003_1"
+        },
+        {
+          "current_time": 247,
+          "trajectory": "Dec-12-2022-bww8_00000007_0"
+        },
+        {
+          "current_time": 87,
+          "trajectory": "Dec-06-2022-bww8_00000016_5"
+        },
+        {
+          "current_time": 47,
+          "trajectory": "Dec-12-2022-bww8_00000040_0"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "Jan-12-2023-bww8_00000011_0"
+        },
+        {
+          "current_time": 71,
+          "trajectory": "Feb-14-2023-bww8-intloss_00000008_46"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "Feb-17-2023-soda3_00000001_0"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "Feb-16-2023-bww1-intloss_00000001_4"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "Dec-12-2022-bww8_00000002_7"
+        },
+        {
+          "current_time": 55,
+          "trajectory": "Nov-17-2022-bww8_00000014_2"
+        },
+        {
+          "current_time": 119,
+          "trajectory": "Dec-09-2022-bww8_00000004_1"
+        }
+      ],
+      "selected_samples": 112,
+      "trajectory_names_sha256": "5ce09fb2105ffb840649dbf13141e39d969236019b79d1f11e7f0baf372948d8"
+    },
+    "scand": {
+      "eligible_trajectories": 37,
+      "openloop_file": "scand_openloop.pkl",
+      "openloop_sha256": "6788fe421aadaeeed47f6e6c527b8063f883f899159eebd526ecf730e4e0b901",
+      "planning_file": "scand_planning.pkl",
+      "planning_sha256": "2fbdddc44f6a3f95575446ec0084918a8407d30ab88e5c77327e3617bf0ec8ed",
+      "samples": [
+        {
+          "current_time": 23,
+          "trajectory": "scand_bags_A_Spot_Library_Fountain_Mon_Nov_8_30_2"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "scand_bags_B_Spot_Dobie_Library_Thu_Nov_11_74_0"
+        },
+        {
+          "current_time": 535,
+          "trajectory": "scand_bags_A_Spot_Bass_Rec_Fri_Nov_26_128_4"
+        },
+        {
+          "current_time": 1055,
+          "trajectory": "scand_bags_A_Spot_Library_AHG_Tue_Nov_9_43_1"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "scand_bags_A_Spot_Lbj_Thompson_Sat_Nov_13_99_2"
+        },
+        {
+          "current_time": 71,
+          "trajectory": "scand_bags_A_Spot_Jester_Jester_Wed_Nov_10_63_0"
+        },
+        {
+          "current_time": 111,
+          "trajectory": "scand_bags_A_Spot_Dobie_Littlefield_Wed_Nov_10_58_0"
+        },
+        {
+          "current_time": 103,
+          "trajectory": "scand_bags_A_Spot_AHG_Cola_Sat_Nov_13_96_1"
+        },
+        {
+          "current_time": 167,
+          "trajectory": "scand_bags_B_Spot_Library_EER_Tue_Nov_9_38_0"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "scand_bags_C_Spot_Tent_AHG_Fri_Nov_26_130_2"
+        },
+        {
+          "current_time": 535,
+          "trajectory": "scand_bags_C_Spot_Tent_AHG_Fri_Nov_26_130_4"
+        },
+        {
+          "current_time": 279,
+          "trajectory": "scand_bags_B_Spot_Library_MCCombs_Wed_Nov_10_47_0"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "scand_bags_136674_0"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "scand_bags_C_Spot_Speedway_Butler_Fri_Nov_26_131_8"
+        },
+        {
+          "current_time": 167,
+          "trajectory": "scand_bags_A_Spot_GDC_AHG_Thu_Nov_18_124_0"
+        },
+        {
+          "current_time": 15,
+          "trajectory": "scand_bags_B_Spot_JCL_JCL_Mon_Nov_15_108_79"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "scand_bags_136676_0"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "scand_bags_B_Spot_Library_Jester_Thu_Nov_11_75_0"
+        },
+        {
+          "current_time": 47,
+          "trajectory": "scand_bags_B_Spot_Library_Greg_Thu_Nov_11_77_0"
+        },
+        {
+          "current_time": 39,
+          "trajectory": "scand_bags_B_Spot_Fountain_Union_Tue_Nov_9_36_0"
+        },
+        {
+          "current_time": 55,
+          "trajectory": "scand_bags_C_Spot_Speedway_Butler_Fri_Nov_26_131_5"
+        },
+        {
+          "current_time": 47,
+          "trajectory": "scand_bags_B_Spot_Library_MCCombs_Wed_Nov_10_47_4"
+        },
+        {
+          "current_time": 79,
+          "trajectory": "scand_bags_138170_0"
+        },
+        {
+          "current_time": 23,
+          "trajectory": "scand_bags_A_Spot_EER_AHG_Mon_Nov_8_32_1"
+        },
+        {
+          "current_time": 183,
+          "trajectory": "scand_bags_B_Spot_NHB_Union_Mon_Nov_15_114_2"
+        },
+        {
+          "current_time": 55,
+          "trajectory": "scand_bags_C_Spot_Rec_Tent_Fri_Nov_26_129_1"
+        },
+        {
+          "current_time": 263,
+          "trajectory": "scand_bags_A_Spot_Ahg_EERC_Thu_Nov_11_79_0"
+        },
+        {
+          "current_time": 183,
+          "trajectory": "scand_bags_A_Jackal_Fountain_Library_Fri_Oct_29_9_1"
+        },
+        {
+          "current_time": 863,
+          "trajectory": "scand_bags_A_Spot_AHG_Library_Fri_Nov_5_21_4"
+        },
+        {
+          "current_time": 55,
+          "trajectory": "scand_bags_B_Jackal_GDC_Library_Sat_Nov_13_87_0"
+        },
+        {
+          "current_time": 31,
+          "trajectory": "scand_bags_A_Spot_Welch_Union_Thu_Nov_11_71_2"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "scand_bags_C_Spot_Speedway_Butler_Fri_Nov_26_131_7"
+        },
+        {
+          "current_time": 767,
+          "trajectory": "scand_bags_C_Spot_Rec_Bass_Fri_Nov_26_127_2"
+        },
+        {
+          "current_time": 663,
+          "trajectory": "scand_bags_B_Spot_SAC_AHG_Mon_Nov_15_110_0"
+        },
+        {
+          "current_time": 55,
+          "trajectory": "scand_bags_B_Spot_LBJ_Thompson_Sat_Nov_13_101_1"
+        },
+        {
+          "current_time": 423,
+          "trajectory": "scand_bags_A_Spot_Bass_Rec_Fri_Nov_26_126_0"
+        },
+        {
+          "current_time": 7,
+          "trajectory": "scand_bags_A_Spot_AHG_Cola_Sat_Nov_13_96_2"
+        }
+      ],
+      "selected_samples": 37,
+      "trajectory_names_sha256": "3a3ed23c737e3b63f7b51632f534a8e323bd94d2e472a55e1ca692534729a342"
+    }
+  },
+  "future_frames": 128,
+  "max_context": 8,
+  "planning_offset": 8,
+  "requested_samples": null,
+  "requested_samples_total": null,
+  "schema_version": 1,
+  "seed": 260309241,
+  "selection_mode": "all_eligible",
+  "stride": 8
+}

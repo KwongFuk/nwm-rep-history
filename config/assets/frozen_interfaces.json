@@ -1,0 +1,96 @@
+{
+  "protocol": "frozen-tokenizer-350m10-v1",
+  "sources": {
+    "cosmos": {
+      "repo": "nvidia/Cosmos-0.1-Tokenizer-CI16x16"
+    },
+    "pae": {
+      "commit": "c054d543a368559763f84c82fef813c55d311b82",
+      "repo": "https://github.com/ZhengrongYue/PAE.git"
+    },
+    "rae": {
+      "repo": "nyu-visionx/RAE-collections",
+      "revision": "1be4f03273523431f099a934da4cf1940dc6039f"
+    },
+    "semantic_wm": {
+      "commit": "2fd7618fb5fefa3045f137387a17868688329016",
+      "repo": "https://github.com/chandar-lab/semantic-wm.git"
+    },
+    "vjepa2": {
+      "commit": "204698b45b3712590f06245fbfba32d3be539812",
+      "repo": "https://github.com/facebookresearch/vjepa2.git"
+    }
+  },
+  "arms": {
+    "rae_b_c768": [
+      {
+        "bytes": 346358296,
+        "path": "${HF_HOME}/hub/models--facebook--dinov2-with-registers-base/snapshots/a1d738ccfa7ae170945f210395d99dde8adb1805/model.safetensors",
+        "sha256": "7a6f7b3b9fa4b8732e707476a03cd6cdce210048582f21aafb7991c17d98e362"
+      },
+      {
+        "bytes": 1661589814,
+        "path": "${NWM_MODEL_ROOT}/rae/dinov2-b/decoder.pt",
+        "sha256": "5fedf7c9660476a709e122cef18385c917532914a23f034388e1c1a52bde2be6"
+      },
+      {
+        "bytes": 787533,
+        "path": "${NWM_MODEL_ROOT}/rae/dinov2-b/stats.pt",
+        "sha256": "84ede66def5e6e3f25679334dc89cf63b12aacb99cbf0f5ae7ed4ad3187f7e59"
+      }
+    ],
+    "rae_l_c1024": [
+      {
+        "bytes": 1217539376,
+        "path": "${NWM_MODEL_ROOT}/dinov2-with-registers-large/model.safetensors",
+        "sha256": "edccedab2c4e164e80833096de89a32a6e8d7365870499a066a61dbc8894b42b"
+      },
+      {
+        "bytes": 1662769462,
+        "path": "${NWM_MODEL_ROOT}/rae/dinov2-l/decoder.pt",
+        "sha256": "6398814fef91b72fead11c1c780df0d0e9902efc542b401f8e5f35a7fa2032f4"
+      },
+      {
+        "bytes": 2098438,
+        "path": "${NWM_MODEL_ROOT}/rae/dinov2-l/stats.pt",
+        "sha256": "9845ac0a68d55a1b4bebc86dd7943636db14a53c0d1e9fab354d3ebb54e22457"
+      }
+    ],
+    "pae_l_c32": [
+      {
+        "bytes": 1217539376,
+        "path": "${NWM_MODEL_ROOT}/dinov2-with-registers-large/model.safetensors",
+        "sha256": "edccedab2c4e164e80833096de89a32a6e8d7365870499a066a61dbc8894b42b"
+      },
+      {
+        "bytes": 2904456562,
+        "path": "${NWM_MODEL_ROOT}/pae-official/AE-models/dinov2-large.pt",
+        "sha256": "cfe9ca326954b7c65735ae4a94d548023db609b990dd7c1784f48c8f1d483738"
+      }
+    ],
+    "cosmos_ci16": [
+      {
+        "bytes": 67195853,
+        "path": "${NWM_MODEL_ROOT}/tokenizers/cosmos-ci16x16/encoder.jit",
+        "sha256": "deeb5fe1df9cbbcf42e14feb97dc1bd18f22365a033818160e5cb86c96977482"
+      },
+      {
+        "bytes": 96196700,
+        "path": "${NWM_MODEL_ROOT}/tokenizers/cosmos-ci16x16/decoder.jit",
+        "sha256": "08a1c66ed14b9b2b0513e4655605ba4ac43754cae4811d069418af45ea704581"
+      }
+    ],
+    "vjepa2_1_svae96": [
+      {
+        "bytes": 5151198524,
+        "path": "${NWM_MODEL_ROOT}/tokenizers/vjepa2.1/vjepa2_1_vitl_dist_vitG_384.pt",
+        "sha256": "7ea9b7cb4a75d10644a8a8d42cff9e177b10dca8f02173f0eaf2b0bed82838c6"
+      },
+      {
+        "bytes": 2582133227,
+        "path": "${NWM_MODEL_ROOT}/tokenizers/semantic-wm/vjepa/adapter_vjepa_image_96.pt",
+        "sha256": "97959ca407b3ac588300da8987fbacea555451ac4a2dc1f0747874f4e617d9ed"
+      }
+    ]
+  }
+}

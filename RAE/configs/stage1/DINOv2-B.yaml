@@ -1,0 +1,17 @@
+stage_1:
+  target: stage1.RAE
+  params:
+    encoder_cls: Dinov2withNorm
+    encoder_config_path: facebook/dinov2-with-registers-base
+    encoder_revision: a1d738ccfa7ae170945f210395d99dde8adb1805
+    encoder_input_size: 224
+    encoder_params:
+      dinov2_path: facebook/dinov2-with-registers-base
+      revision: a1d738ccfa7ae170945f210395d99dde8adb1805
+      normalize: true
+      layer_aggregation: last
+    decoder_config_path: RAE/configs/decoder/ViTXL
+    pretrained_decoder_path: ${oc.env:NWM_MODEL_ROOT}/rae/dinov2-b/decoder.pt
+    noise_tau: 0.0
+    reshape_to_2d: true
+    normalization_stat_path: ${oc.env:NWM_MODEL_ROOT}/rae/dinov2-b/stats.pt

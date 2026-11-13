@@ -1,0 +1,133 @@
+# Main experiment (50 epochs)
+# rae_b_cached_linear
+
+# --- Output ---
+results_dir: ${NWM_RUN_ROOT}/main
+run_name: rae_b_cached_linear
+wandb:
+  enabled: false
+  project: nwm-rep-history
+  entity: null
+
+# --- Data ---
+datasets:
+  recon:
+    data_folder: ${NWM_DATA_ROOT}/processed/recon
+    train: data_splits/recon/train
+    test: data_splits/recon/test
+    goals_per_obs: 4
+  sacson:
+    data_folder: ${NWM_DATA_ROOT}/processed/sacson
+    train: data_splits/sacson/train
+    test: data_splits/sacson/test
+    goals_per_obs: 4
+  scand:
+    data_folder: ${NWM_DATA_ROOT}/processed/scand
+    train: data_splits/scand/train
+    test: data_splits/scand/test
+    goals_per_obs: 4
+eval_datasets:
+  recon:
+    data_folder: ${NWM_DATA_ROOT}/processed/recon
+    test: data_splits/recon/test
+    goals_per_obs: 4
+  sacson:
+    data_folder: ${NWM_DATA_ROOT}/processed/sacson
+    test: data_splits/sacson/test
+    goals_per_obs: 4
+  scand:
+    data_folder: ${NWM_DATA_ROOT}/processed/scand
+    test: data_splits/scand/test
+    goals_per_obs: 4
+dataset_index_root: ${NWM_DATA_ROOT}/index-cache
+image_size: 224
+context_size: 8
+len_traj_pred: 64
+distance:
+  min_dist_cat: -64
+  max_dist_cat: 64
+normalize: true
+balanced_sampling: true
+balanced_samples_per_epoch: min
+deterministic_data_sampling: true
+num_workers: 12
+
+# --- Frozen visual interface ---
+config_path: RAE/configs/stage1/DINOv2-B.yaml
+model_in_channels: 768
+
+# --- Dynamics model (CDiT-B/2 + DDT head) ---
+model: CDiT-B/2
+learn_sigma: false
+mlp_ratio: 4.0
+head_width: 2048
+head_depth: 2
+head_num_heads: 16
+head_attention_layout:
+- window
+- shifted_window
+head_window_size: 8
+window_size: 8
+
+# --- History mixer ---
+attention_mode: cached_linear
+backbone_mode: dit
+self_attention_layout:
+- window
+- shifted_window
+- window
+- shifted_window
+- window
+- shifted_window
+- window
+- shifted_window
+- window
+- shifted_window
+- window
+- shifted_window
+gdn_softmax_every: 4
+gdn_conv_kernel_size: 4
+linear_feature_scaling: true
+
+# --- iREPA alignment (training only) ---
+repa_mode: none
+repa_coeff: 0.0
+repa_layer_depth: 8
+repa_kernel_size: 3
+repa_spatial_alpha: 1.0
+repa_eps: 1.0e-06
+
+# --- Flow matching ---
+transport:
+  model_type: velocity
+  path_type: linear
+  loss_type: velocity
+  time_dist_type: uniform
+  time_dist_shift_disable: false
+  num_steps: 50
+  sampling_method: euler
+
+# --- Optimization ---
+epochs: 50
+batch_size: 48
+train_microbatch_size: 48
+lr: 0.0002
+final_lr: 2.0e-06
+lr_schedule: linear
+betas:
+- 0.9
+- 0.999
+grad_clip_val: 1.0
+exact_resume: true
+override_lr_on_resume: false
+
+# --- Evaluation ---
+eval_num_batches: 3
+planning_score_type: dino
+planning_traj_sampler: curve
+dreamsim_cache_dir: ${NWM_MODEL_ROOT}/dreamsim
+
+# --- Reproducibility checks ---
+expected_world_size: 2
+parameter_budget_trainable: 364236372
+parameter_tolerance: 5.0e-05
